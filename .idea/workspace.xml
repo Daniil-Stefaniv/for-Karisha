@@ -21,6 +21,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/Верстка/Задание 17&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -39,7 +40,9 @@
       <option name="presentableId" value="Default" />
       <updated>1657190173089</updated>
       <workItem from="1657190174214" duration="5222000" />
-      <workItem from="1657257388209" duration="637000" />
+      <workItem from="1657257388209" duration="1277000" />
+      <workItem from="1657260698225" duration="11010000" />
+      <workItem from="1657343833164" duration="624000" />
     </task>
     <servers />
   </component>

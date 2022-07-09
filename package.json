@@ -1,0 +1,15 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "choices.js": "^10.1.0",
+    "save-dev": "^0.0.1-security"
+  }
+}

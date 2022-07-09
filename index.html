@@ -6,14 +6,15 @@
     <meta name="viewport" content="width=device-width , initial-scale=1.0" />
     <title>Custom Elements</title>
 
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"
+    />
     <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css"
-    />
   </head>
   <body>
+  <section>
     <div class="container">
       <div class="elements__wrapper">
         <section class="checkbox__wrapper">
@@ -21,7 +22,7 @@
             Категории:
           </h2>
           <label class="label" for="check">
-            <input id="check" type="checkbox" >
+            <input id="check" type="checkbox">
             <span class="fake-checkbox"></span>
             <span class="text">
               Динозавры
@@ -30,7 +31,17 @@
 
         </section>
         <section class="select">
+          <div class="select-wrapper">
+            <select name="materials" id="custom-select">
+              <option value="Древесина">Древесина</option>
+              <option value="Металл">Металл</option>
+              <option value="Камень">Камень</option>
+              <option value="Пластик">Пластик</option>
+              <option value="Композитный">Композитный</option>
+              <option value="Гипс">Гипс</option>
+            </select>
 
+          </div>
         </section>
         <section class=""></section>
         <section class=""></section>
@@ -41,5 +52,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script>
     <script src="/js/index.js"></script>
+  </section>
   </body>
 </html>
